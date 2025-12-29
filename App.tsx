@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { PROTEINS, PROTEIN_GROUPS, VEGGIES, CARBS, MAX_PROTEINS, MAX_VEGGIES, MAX_CARBS } from './constants';
+import { PROTEIN_GROUPS, VEGGIES, CARBS, MAX_PROTEINS, MAX_VEGGIES, MAX_CARBS } from './constants';
 import { SelectionState, WeeklyPlan, Recipe } from './types';
 import { generateMealPlan } from './services/geminiService';
 import { IngredientSelector } from './components/IngredientSelector';
